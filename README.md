@@ -30,8 +30,10 @@ To provide an interactive and visual exploration of the data, I developed a Powe
 *   **High Inventory/Low Sales:** A table highlighting products with high inventory levels but low sales, sorted by current inventory.
 *   **Not Moving Products:** A table showing products that have not been sold at all (or very little) , listed with products listed by their location for inventory transference purposes.
 *   **Inventory Turnover:** Each table includes an inventory volume that measures the efficiency in order processing for each good to compare the most critical items
-*   **Filtering:** Slicers that allow users to filter the data by warehouse, product line, and date range.
-   To provide quick analytics.
+
+![Alter Text](https://github.com/Farkhodbek03/Mint-Classics-Company-EDA-Portfolio-Project-/blob/dc048f4fc921cd4b8424955272388d80064e6b24/Inventory%20project%20dashboard.pdf)
+
+
 
 The Power BI dashboard `.pbix` file can be found within the directory to open and interactively engage
 
