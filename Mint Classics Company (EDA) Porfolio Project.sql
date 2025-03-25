@@ -1,4 +1,4 @@
--- Mint Classics Company (EDA) Project by Frakhod
+-- Mint Classics Company (EDA) Project by Frakhodbek
 
 -----------------------------------------------------------------------------
 -- Section: Inventory Overview and Warehouse Utilization
