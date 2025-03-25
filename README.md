@@ -34,16 +34,7 @@ To provide an interactive and visual exploration of the data, I developed a Powe
 ![Alter Text](https://github.com/Farkhodbek03/Mint-Classics-Company-EDA-Portfolio-Project-/blob/66272edba95f86a1b6392065422022b6ef2b92fd/Screenshot%202025-03-25%20102714.png)
 
 
-## Analysis and Key Findings
-
-The following steps was implemented to come to a better outcome for the company
-
-1. Inventory Review to identify the volume within our storage unit (The most efficient was Bar Chart to display volume by storage locations.
-
-*Image of warehouse volumetrics would show and describe the key insight here.*
-1. Identify products which don't turnover efficiently (The most useful was creating a scatter-plot to help find relationships for better visualization.)
-
-*Image of products without turning would show and describe the key insight here.*
+## Key Findings
 
 Through my analysis, I found the following:
 
