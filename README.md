@@ -19,7 +19,7 @@ This project demonstrates the following skills:
 *   **Data Analysis:** Identifying patterns, anomalies, and opportunities for improvement within the data.
 *   **Business Communication:** Translating data insights into clear, concise recommendations for business stakeholders.
 *   **Database Knowledge**: Deep understanding of data models to gain access and manage required data
-*   
+    
 
 ## The Power BI Dashboard
 
@@ -32,12 +32,6 @@ To provide an interactive and visual exploration of the data, I developed a Powe
 *   **Inventory Turnover:** Each table includes an inventory volume that measures the efficiency in order processing for each good to compare the most critical items
 
 ![Alter Text](https://github.com/Farkhodbek03/Mint-Classics-Company-EDA-Portfolio-Project-/blob/66272edba95f86a1b6392065422022b6ef2b92fd/Screenshot%202025-03-25%20102714.png)
-
-
-
-The Power BI dashboard `.pbix` file can be found within the directory to open and interactively engage
-
-
 
 
 ## Analysis and Key Findings
@@ -65,9 +59,12 @@ Based on my analysis of the data, I recommend the following to Mint Classics:
 1.  **Warehouse Consolidation** Warehouse D can fully transfer it's remaining quantities for warehouse to locations
 2.  **Inventory Adjustment** Reducing inventory by shipping between location
 3.  **Stop Carrying Out Non-Moving Inventory.** Items for non-sales, which have no sales volume in comparison need to get discontinue or removed
+By applying these strategies we expect for warehouse D to shutdown.
 
-By applying these strategies we expect for warehouse D to shutdown
 
+
+## Database structure 
+![Alter Text](https://github.com/Farkhodbek03/Mint-Classics-Company-EDA-Portfolio-Project-/blob/4b4719ecd58cefd18cb023f87a325f0e8832b911/Data%20Stracture.png)
 
 
 
