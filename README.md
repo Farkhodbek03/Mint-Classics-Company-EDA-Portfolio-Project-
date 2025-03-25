@@ -19,19 +19,24 @@ This project demonstrates the following skills:
 *   **Data Analysis:** Identifying patterns, anomalies, and opportunities for improvement within the data.
 *   **Business Communication:** Translating data insights into clear, concise recommendations for business stakeholders.
 *   **Database Knowledge**: Deep understanding of data models to gain access and manage required data
+*   
 
-## Data Sources
+## The Power BI Dashboard
 
-The data for this project comes from a MySQL database provided by Mint Classics. The key tables include:
+To provide an interactive and visual exploration of the data, I developed a Power BI dashboard with the following features:
 
-*   **Products:** Contains information about each product (product code, name, description, quantity in stock, warehouse code, etc.).
-*   **OrderDetails:** Contains information about the items included in each order (product code, quantity ordered, price, etc.).
-*   **Warehouses:** Contains information about the storage facilities (warehouse code, name, location, capacity, etc.).
+*   **Warehouse Utilization:** A bar chart displaying the total inventory stored at each warehouse.
+*   **Sales vs. Inventory:** A scatter plot showing the relationship between total sales and current inventory for each product.
+*   **High Inventory/Low Sales:** A table highlighting products with high inventory levels but low sales, sorted by current inventory.
+*   **Not Moving Products:** A table showing products that have not been sold at all (or very little) , listed with products listed by their location for inventory transference purposes.
+*   **Inventory Turnover:** Each table includes an inventory volume that measures the efficiency in order processing for each good to compare the most critical items
+*   **Filtering:** Slicers that allow users to filter the data by warehouse, product line, and date range.
+   To provide quick analytics.
 
-[You can find a Data Dictionary in this repository that explains all fields for each of the tables.](https://github.com/yourusername/mint-classics-inventory/blob/main/DATA_DICTIONARY.md)
+The Power BI dashboard `.pbix` file can be found within the directory to open and interactively engage
 
-## SQL Queries
-[Each SQL query includes extensive commentary within to further explain it's purposes for helping non-SQL literate analysts to follow along!](https://github.com/yourusername/mint-classics-inventory/blob/main/SQL_SCRIPTS.md)
+
+
 
 ## Analysis and Key Findings
 
@@ -50,19 +55,6 @@ Through my analysis, I found the following:
 *   **Inventory Distribution:** The analysis found the different products assigned within the warehouses allowing to compare the product quantities for an even-er output. *Refer to distribution model of inventories.*
 *   **Slow Moving Products** It showed those specific inventories, and why the location warehouse D must get consolidated and the volume can easily transfer to warehouse C which can better accommodate all other goods/assets. *Visualize as tabular chart.*
 
-## The Power BI Dashboard
-
-To provide an interactive and visual exploration of the data, I developed a Power BI dashboard with the following features:
-
-*   **Warehouse Utilization:** A bar chart displaying the total inventory stored at each warehouse.
-*   **Sales vs. Inventory:** A scatter plot showing the relationship between total sales and current inventory for each product.
-*   **High Inventory/Low Sales:** A table highlighting products with high inventory levels but low sales, sorted by current inventory.
-*   **Not Moving Products:** A table showing products that have not been sold at all (or very little) , listed with products listed by their location for inventory transference purposes.
-*   **Inventory Turnover:** Each table includes an inventory volume that measures the efficiency in order processing for each good to compare the most critical items
-*   **Filtering:** Slicers that allow users to filter the data by warehouse, product line, and date range.
-   To provide quick analytics.
-
-The Power BI dashboard `.pbix` file can be found within the directory to open and interactively engage
 
 ## Recommendations
 
@@ -74,14 +66,7 @@ Based on my analysis of the data, I recommend the following to Mint Classics:
 
 By applying these strategies we expect for warehouse D to shutdown
 
-[Here's the actual recommendations and thought process that occurred during analysis.](linkToPDFIfYouMadeOne.PDF)
 
-## Files in this Repository
 
-*   `README.md`: This file.
-*   `Mint_Classics_Inventory_Dashboard.pbix`: The Power BI dashboard file.
-*   `/SQL_SCRIPTS/`: Directory containing the SQL queries used in this project.
-*   `DATA_DICTIONARY.md`: A detailed data dictionary explaining the tables and fields.
-*  `MIT_LICENSE.txt`: Describes all license to engage in
 
 Feel free to connect for discussions and follow the insights in this project, any advice helps improve me!
